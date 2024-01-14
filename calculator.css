@@ -1,0 +1,28 @@
+.body{
+    display: flex;
+    justify-content: center;
+    background: url(./calculator-2391810_1280.jpg);
+}
+#calculator{
+    border: 2px solid rgb(193, 193, 193);
+    border-radius: 5px;
+    width: 400px;
+    background: url(./calculator-2391810_1280.jpg);
+}   
+#display{
+    margin: 10px;
+    height: 100px;
+    width: 94%;
+    
+}
+.but_cont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button{
+  
+   margin: 5px;
+    width: 91px;
+    height: 80px;
+}
