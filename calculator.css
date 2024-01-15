@@ -4,14 +4,19 @@
     background: url(./calculator-2391810_1280.jpg);
 }
 #calculator{
-    border: 2px solid rgb(193, 193, 193);
+    
+    border: 2px solid rgb(117, 112, 112);
+    
     border-radius: 5px;
     width: 400px;
     background: url(./calculator-2391810_1280.jpg);
 }   
 #display{
+    background-color: #efefef;
+    border: none;
+    border-radius: 5px;
     margin: 10px;
-    height: 100px;
+    height: 80px;
     width: 94%;
     
 }
@@ -21,7 +26,8 @@
     flex-wrap: wrap;
 }
 .button{
-  
+    border: none;
+  border-radius: 52px;
    margin: 5px;
     width: 91px;
     height: 80px;
